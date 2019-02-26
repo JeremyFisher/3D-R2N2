@@ -140,6 +140,15 @@ export CPATH=/path/to/cuDNN/include:$CPATH
 export LIBRARY_PATH=/path/to/cuDNN/lib64:$LD_LIBRARY_PATH
 ```
 
+or
+
+```
+export LD_LIBRARY_PATH=/usr/local/cuda-9.1/lib64:$LD_LIBRARY_PATH
+export CPATH=/usr/local/cuda-9.1/include:$CPATH
+export LIBRARY_PATH=/usr/local/cuda-9.1/lib64:$LD_LIBRARY_PATH
+```
+
+
 For more details, please refer to [http://deeplearning.net/software/theano/library/sandbox/cuda/dnn.html](http://deeplearning.net/software/theano/library/sandbox/cuda/dnn.html)
 
 
